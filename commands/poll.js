@@ -13,9 +13,9 @@ module.exports = {
             if (!pArgs[0] || !pArgs[1] || !pArgs[2]) {
                 let embedsay = new Discord.MessageEmbed()
                     .setColor('#FF0000')
-                    .setTitle('NAPAKA')
-                    .setDescription('Uporabi pravo sintakso')
-                    .addField('Sintaksa:', '!poll "vprašanje" "odgovor 1" "odgovor 2"', true)
+                    .setTitle('ERROR')
+                    .setDescription('Use right syntax')
+                    .addField('Syntax:', '!poll "question" "answer 1" "answer 2" ... "answer 10"', true)
                     .setTimestamp()
                     .setFooter('Powered by Mallow', 'https://i.imgur.com/ZXApe2p.jpg');
                 msg.channel.send(embedsay);
