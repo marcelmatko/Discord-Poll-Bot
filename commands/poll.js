@@ -14,7 +14,7 @@ module.exports = {
                 let embedsay = new Discord.MessageEmbed()
                     .setColor('#FF0000')
                     .setTitle('ERROR')
-                    .setDescription('Use right syntax')
+                    .setDescription('Wrong syntax used.')
                     .addField('Syntax:', '!poll "question" "answer 1" "answer 2" ... "answer 10"', true)
                     .setTimestamp()
                     .setFooter('Powered by Mallow', 'https://i.imgur.com/ZXApe2p.jpg');
